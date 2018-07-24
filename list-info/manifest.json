@@ -8,7 +8,7 @@
       "38": "icons/default38.png"
     }
   },
-  "description": "List cookies in the active tab.",
+  "description": "This add is used to get user information, at this way it will be possible to show the user information about the current web page. The goal is show vital information that web pages are getting in the moment at that the user is surfing the web.",
   "icons": {
     "48": "icons/x2.png",
     "96": "icons/x2.png"
