@@ -16,5 +16,5 @@
   "manifest_version": 2,
   "name": "Action tab ...",
   "version": "0.1",
-  "permissions": ["cookies","<all_urls>","tabs"]
+  "permissions": ["cookies","<all_urls>","tabs","dns"]
 }

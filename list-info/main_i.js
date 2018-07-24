@@ -14,9 +14,26 @@ function showCookiesForTab(tabs) {
     curentTabUrl.appendChild(text1);
 
     var cookk = document.createElement("Sec");
-    var text2 = document.createTextNode("Cookies count:" + cookies.length);
+    var text2 = document.createTextNode("Cookies count: " + cookies.length + "\n");
     cookk.appendChild(text2);
     cookieList.appendChild(cookk);
+
+    function resolved(record) {
+      console.log(record.addresses);
+    }
+    let resolving = browser.dns.resolve("example.com");
+
+    //we will use this to extract Information
+    var dns = document.createElement("thr");
+    var text3 = document.createTextNode("DNS resolved name: " + resolving.addresses + " in "+ resolving.then(resolved)[0] + "\n");
+    dns.appendChild(text3);
+    cookieList.appendChild(dns);
+
+    //proxy
+    //var proxyy = document.createElement("four");
+    //var text4 = document.createTextNode("Proxy" + );
+    //proxyy.appendChild(text4);
+    //cookieList.appendChild(proxyy);
 
   });
 }
