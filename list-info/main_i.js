@@ -1,3 +1,4 @@
+
 function showCookiesForTab(tabs) {
   //get the first tab object in the array
   let tab = tabs.pop();
@@ -35,8 +36,12 @@ function showCookiesForTab(tabs) {
     //proxyy.appendChild(text4);
     //cookieList.appendChild(proxyy);
 
+    //new windows background
+    //browser.windows.create({url:"www.google.com"});
+
   });
 }
+
 
 //get active tab to run an callback function.
 //it sends to our callback an array of tab objects
