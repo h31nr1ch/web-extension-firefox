@@ -13,8 +13,15 @@
     "48": "icons/x2.png",
     "96": "icons/x2.png"
   },
+
+  "options_ui" : {
+    "page": "information.html",
+    "open_in_tab":true
+  },
+
   "manifest_version": 2,
   "name": "Action tab ...",
   "version": "0.1",
   "permissions": ["cookies","<all_urls>","tabs","dns"]
+
 }
