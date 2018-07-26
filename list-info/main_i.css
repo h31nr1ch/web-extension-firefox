@@ -1,11 +1,30 @@
 html, body {
-  width: 500px;
+ width: 500px;
 }
 
 .panel {
-  padding: 5px;
+ padding: 5px;
+ color:#fff !important;
+ background-color:#3a3a3a !important
+}
+
+.SecondPanel{
+ color:#fff !important;
+ background-color:#4e4e4e !important
+
 }
 
 li {
-  margin-bottom: 5px;
+ margin-bottom: 5px;
+}
+
+.button {
+ -webkit-transition-duration: 0.4s; /* Safari */
+ transition-duration: 0.4s;
+ border-radius: 50%;
+}
+
+.button:hover {
+ color:#fff !important;
+ background-color:#575757 !important
 }
