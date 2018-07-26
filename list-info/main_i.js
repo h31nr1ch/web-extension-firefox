@@ -11,7 +11,7 @@ function showCookiesForTab(tabs) {
     var curentTabUrl = document.getElementById('header-title');
     var cookieList = document.getElementById('main_i-list');
 
-    var text1 = document.createTextNode("Information: ");
+    var text1 = document.createTextNode("Beta H3O");
     curentTabUrl.appendChild(text1);
 
     var cookk = document.createElement("Sec");
@@ -22,13 +22,14 @@ function showCookiesForTab(tabs) {
     function resolved(record) {
       console.log(record.addresses);
     }
-    let resolving = browser.dns.resolve("example.com");
+    let resolving = browser.dns.resolve("http://www.google.com");
 
+    var dns_d = document.getElementById('main_i-dns');
     //we will use this to extract Information
     var dns = document.createElement("thr");
-    var text3 = document.createTextNode("DNS resolved name: " + resolving.addresses + " in "+ resolving.then(resolved)[0] + "\n");
+    var text3 = document.createTextNode("\nDNS resolved name: " + resolving.addresses + " in "+ resolving.then(resolved)[0] + "\n");
     dns.appendChild(text3);
-    cookieList.appendChild(dns);
+    dns_d.appendChild(dns);
 
     //proxy
     //var proxyy = document.createElement("four");
