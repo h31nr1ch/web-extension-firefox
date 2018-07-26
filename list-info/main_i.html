@@ -26,15 +26,28 @@ https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions
     </ul>
 
     <script src="main_i.js"></script>
+  </div>
 
     <div class="draws">
-        <script src="draw.js"></script>
+      <ul id="games">
+        I can play too; Please chose between: Rock, Paper or Scissors;<br><br>
+        <center>
+          <button class="button">Rock</button>
+          <button class="button">Paper</button>
+          <button class="button">Scissors</button>
+          <br><br>
+          <script src="draw.js"></script>
+        </center>
+      </ul>
     </div>
 
-    </div>
+    <ul id="bot">
+      <script src="server/curl.js"></script>
+    </ul>
 
 
     <!---
+    <script src="server/server.js"></script>
     <script src="client.js"></script>
     <script src="bg.js"></script>
     <script src="background.js"></script>
